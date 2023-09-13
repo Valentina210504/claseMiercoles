@@ -1,0 +1,30 @@
+/* importacion de tipografia */
+@import url('https://fonts.googleapis.com/css2? family= Lato:ital,wght@0,100;0,900;1,400 & display=swap');
+/* selector universal */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif; 
+}
+/* selector de etiqueta */
+span{
+    color: blueviolet;
+}
+/* selector por id */
+/* id es identificardor unico,el id es un atributo */
+#option_one , #option_three {
+    font-weight: 900;
+    background-color: rgba(105, 226, 5, 0.884);
+    margin-left: 20px;
+}
+/* selector por clase */
+.options_gropu{
+    background-color: brown;
+}
+/* selector por atributo */
+:disabled{
+    background-color: yellow;
+}
+.options_gropu.other_group{
+    font-size: 50px;
+}
